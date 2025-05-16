@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Versión"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editEspacio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Espacio (MB)"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editPrecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Precio"
+            android:inputType="numberDecimal" />
+
+
+
+    </LinearLayout>
+</ScrollView>
